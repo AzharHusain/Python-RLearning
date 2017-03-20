@@ -1,0 +1,3 @@
+#ignore all html generation of md files.
+*.html
+
