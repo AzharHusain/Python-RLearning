@@ -1,6 +1,6 @@
-#Chapter 1 Installation and Setup
+# Chapter 1 Installation and Setup
 
-###Python Setup
+### Python Setup
 
 Install python by visiting https://www.python.org/downloads/.
 The python website auto detects the OS of your machine and provide you with the relevant setup. The setup for windows is an exe installer.
@@ -15,7 +15,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 The result should be similar to above detailng about python version in my case it is 3.6.0.
 
-####Pip 
+#### Pip 
 
 Pip is a package manager for python which work as downloader and installer of python packages from online repository.
 To ensure pip is successfully running on your machine run following command
@@ -45,7 +45,7 @@ Commands:
 This output describes that pip is successfully running on your machine.
 
 
-####Installing Pandas and Numpy
+#### Installing Pandas and Numpy
 
 We will use pip package manager to download pandas and numpy library.
 
@@ -63,13 +63,13 @@ pip3 install numpy
 
 Numpy download will install and later after download installtion will auto begin.
 
-After numpy install pandas *Numpy is prerequisite for pandas so be sure to install numpy first*
+After numpy install pandas **Numpy is prerequisite for pandas so be sure to install numpy first**
 
 ```
 pip3 install pandas
 ```
 
-####Installing Jupyter Notebook
+#### Installing Jupyter Notebook
 
 Now we have downloaded the required library, configured our python and all set and ready. Its time to get our canvas to work around. There are various alternative of python editor we will use Jupyter one of the most famous web based notebook for various languages.
 
@@ -94,5 +94,7 @@ Jupyter can be used with various programming languages, each of which is configu
 To run new python notebook go to new button and click python 3 option. Which will open window for running your python code. The interface will look like the image shown below.
 
 ![](images/jupytereditor.png)
+
+
 
 With this we come to the end of configuring our python environment. More examples on python will be available in next chapter.
