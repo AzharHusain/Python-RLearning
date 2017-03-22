@@ -61,9 +61,9 @@ Then install numpy library using
 pip3 install numpy
 ```
 
-Numpy download will install and later after download installtion will auto begin.
+Numpy download will start and later after download installtion will auto begin.
 
-After numpy install pandas **Numpy is prerequisite for pandas so be sure to install numpy first**
+After numpy install pandas. **Numpy is prerequisite for pandas so be sure to install numpy first**
 
 ```
 pip3 install pandas
@@ -85,7 +85,7 @@ Once the jupyter is intalled use following command from your command prompt to r
 jupyter notebook
 ```
 
-The interface for jupyter looks like in image below
+The interface for jupyter looks like image shown below
 
 ![](images/JupyterInterface.png)
 
