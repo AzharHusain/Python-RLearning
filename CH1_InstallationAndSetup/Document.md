@@ -98,3 +98,53 @@ To run new python notebook go to new button and click python 3 option. Which wil
 
 
 With this we come to the end of configuring our python environment. More examples on python will be available in next chapter.
+
+
+### R Installation
+
+R can be downloaded from the location [R Cran Repository](https://cran.r-project.org/bin/windows/base/). Download the latest version of R, current is R 3.3.3.
+Execute the downloaded file and follow the setup with default options. Now run the R from desktop program shortcut created by installer this will open R Gui with R console to work.
+
+#### Installing Pacakages
+
+R is one of the oldest and most favoured language in statistical computing, R at its base is truly efficient and provide some great functions. Still the real power of R lies in packages or user defined modules that can be installed to perform some hard to code operation in very simple way. These packages are developed by R development team or the R community users across the globe. Few very famous packages are
+* ggplot2
+* dplyr
+* swirl
+* shiny and etc.
+
+The command to install any package in R is 
+
+```{r}
+install.packages("packageName")
+```
+
+Lets begin by installing package Rattle, you can read about rattle at http://rattle.togaware.com
+
+```{r}
+install.packages("rattle")
+```
+
+This command will start download of rattle package and its dependency from CRAN repository. If you are installing a package for first time in your R environment it may ask you to choose CRAN repo location, for which you can proceed with default selected option.
+
+Once this package is downloaded and installed please try command
+
+```{r}
+library(rattle)
+```
+
+If this command show error or notify to download RGtk2 proceed with its download and installation and run the command once again.
+**It is noted installing of package require some dependency which differ from system to system. So read the error message if you are not able to download or install and google it, there are various answer available for the same.**
+
+Once installation is completed run command on R shell
+
+```{r}
+library(rattle)
+ratlle()
+```
+
+This will start rattle on your R,  once started it may ask to download additional packages like 'XML'. So hit yes button and proceed with installation.
+
+#### dplyr
+
+dplyr is very famous package of R for data munging in R like pandas in Python. So please install it using command `install.packages(dplyr)` as we  will need it for later chapters.
