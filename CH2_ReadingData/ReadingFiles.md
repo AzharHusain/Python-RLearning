@@ -79,7 +79,7 @@ The `sep='|'` attribute is used defined the seperator in file, in our example it
 
 3. **Read text file without header using custom columns names**
 
-Earlier above we have seen example of using `header=None` where python generates some default column titles as number. Still there is highly recommended to use well defined column names in data analysis for better reproducible research documents and analysis outcome. 
+Earlier above we have seen example of using `header=None` where python generates some default column titles as number. Still it is highly recommended to use well defined column names in data analysis for better reproducible research documents and analysis outcome. 
 
 In python this can be done using `names=` attribute which define column names for each column, example of same code is given below.
 
