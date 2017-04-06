@@ -162,10 +162,10 @@ Before getting through this let us explore the requirements we have, this exampl
 
 This example can not be handled using any single function call. Hence we have to manually create a code block or function if necessary for the same. Let us see the steps needed for this task to be accomplished.
 
-a. Select excel file
-b. Get the sheet names that are available in that Excel file
-c. Read data from each excel sheet and store it in a data frame
-d. Combine all data frames, to make a consolidated data frame.
+1. Select excel file
+2. Get the sheet names that are available in that Excel file
+3. Read data from each excel sheet and store it in a data frame
+4. Combine all data frames, to make a consolidated data frame.
 
 So lets see our code first, dont be intimidated by it as we will dive in line by line after the code below.
 
